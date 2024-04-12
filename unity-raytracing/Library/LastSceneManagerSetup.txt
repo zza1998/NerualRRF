@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/RayTracing/Scenes/25_CornellBox/CornellBox_ComplexGeometry.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

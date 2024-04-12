@@ -1,0 +1,385 @@
+{
+    "materials": [
+        {
+            "type": 0,
+            "name": "LeftWall",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 0.63,
+                "y": 0.065,
+                "z": 0.05
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        },
+        {
+            "type": 0,
+            "name": "RightWall",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 0.14,
+                "y": 0.45,
+                "z": 0.091
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        },
+        {
+            "type": 0,
+            "name": "Floor",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 0.725,
+                "y": 0.71,
+                "z": 0.68
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        },
+        {
+            "type": 0,
+            "name": "Ceiling",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 0.725,
+                "y": 0.71,
+                "z": 0.68
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        },
+        {
+            "type": 0,
+            "name": "BackWall",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 0.725,
+                "y": 0.71,
+                "z": 0.68
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        },
+        {
+            "type": 0,
+            "name": "ShortBox",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 0.725,
+                "y": 0.71,
+                "z": 0.68
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        },
+        {
+            "type": 0,
+            "name": "TallBox",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 0.725,
+                "y": 0.71,
+                "z": 0.68
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        },
+        {
+            "type": 0,
+            "name": "Light",
+            "assetPath": "",
+            "shaderName": "NerualGI",
+            "baseColor": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "albedoTexture": null,
+            "bumpMap": null,
+            "roughness": 0,
+            "eta": 1.5,
+            "metal": null
+        }
+    ],
+    "entities": [
+        {
+            "name": "entity_0_Floor",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 2,
+                "y": 4,
+                "z": 2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "meshType": "quad",
+            "mesh": null,
+            "material": "Floor",
+            "emission": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "power": 0
+        },
+        {
+            "name": "entity_1_Ceiling",
+            "position": {
+                "x": 0,
+                "y": 2,
+                "z": 0
+            },
+            "scale": {
+                "x": 2,
+                "y": 4,
+                "z": 2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": -180
+            },
+            "meshType": "quad",
+            "mesh": null,
+            "material": "Ceiling",
+            "emission": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "power": 0
+        },
+        {
+            "name": "entity_2_BackWall",
+            "position": {
+                "x": 0,
+                "y": 1,
+                "z": 1
+            },
+            "scale": {
+                "x": 2,
+                "y": 4,
+                "z": 2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 90
+            },
+            "meshType": "quad",
+            "mesh": null,
+            "material": "BackWall",
+            "emission": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "power": 0
+        },
+        {
+            "name": "entity_3_RightWall",
+            "position": {
+                "x": 1,
+                "y": 1,
+                "z": 0
+            },
+            "scale": {
+                "x": 2,
+                "y": 4,
+                "z": 2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 360,
+                "z": 90
+            },
+            "meshType": "quad",
+            "mesh": null,
+            "material": "RightWall",
+            "emission": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "power": 0
+        },
+        {
+            "name": "entity_4_LeftWall",
+            "position": {
+                "x": -1,
+                "y": 1,
+                "z": 0
+            },
+            "scale": {
+                "x": 2,
+                "y": 4,
+                "z": 2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 90
+            },
+            "meshType": "quad",
+            "mesh": null,
+            "material": "LeftWall",
+            "emission": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "power": 0
+        },
+        {
+            "name": "entity_5_ShortBox",
+            "position": {
+                "x": 0.328631,
+                "y": 0.3,
+                "z": -0.374592
+            },
+            "scale": {
+                "x": 0.594811,
+                "y": 0.604394,
+                "z": 0.6
+            },
+            "rotation": {
+                "x": 90,
+                "y": 270,
+                "z": -163.36
+            },
+            "meshType": "cube",
+            "mesh": null,
+            "material": "ShortBox",
+            "emission": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "power": 0
+        },
+        {
+            "name": "entity_6_TallBox",
+            "position": {
+                "x": -0.335439,
+                "y": 0.6,
+                "z": 0.291415
+            },
+            "scale": {
+                "x": 0.607289,
+                "y": 0.597739,
+                "z": 1.2
+            },
+            "rotation": {
+                "x": 90,
+                "y": 360,
+                "z": 160.812
+            },
+            "meshType": "cube",
+            "mesh": null,
+            "material": "TallBox",
+            "emission": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "power": 0
+        },
+        {
+            "name": "entity_7_Light",
+            "position": {
+                "x": -0.005,
+                "y": 1.98,
+                "z": 0.03
+            },
+            "scale": {
+                "x": 0.47,
+                "y": 0.1786,
+                "z": 0.38
+            },
+            "rotation": {
+                "x": 0,
+                "y": 360,
+                "z": 180
+            },
+            "meshType": "quad",
+            "mesh": null,
+            "material": "Light",
+            "emission": {
+                "x": 17,
+                "y": 12,
+                "z": 4
+            },
+            "power": 0
+        }
+    ],
+    "envLight": [],
+    "jsonCamera": {
+        "position": {
+            "x": 0,
+            "y": 1,
+            "z": -6.8
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "fov": 19.5,
+        "near": 0.3,
+        "far": 100,
+        "useLookAt": true,
+        "lookAt": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        },
+        "up": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "renderer": {
+        "raytracingData": {
+            "SamplesPerPixel": 64,
+            "MaxDepth": 64,
+            "HDR": 1,
+            "_EnviromentMapEnable": false
+        }
+    }
+}
